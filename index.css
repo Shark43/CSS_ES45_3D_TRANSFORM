@@ -1,0 +1,22 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.contenitore{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 40px;
+}
+.box{
+    width: inherit;
+    height: inherit;
+}
+#box1 .box{
+    background-color: red;
+    transform: perspective(400px) rotateY(30deg);
+}
+#box2 .box{
+    background-color: #00F;
+    transform: perspective(4000px) rotateY(40deg) translateY(0);
+}
